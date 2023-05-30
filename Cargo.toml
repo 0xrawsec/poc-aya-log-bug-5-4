@@ -1,0 +1,2 @@
+[workspace]
+members = ["poc-aya-log-bug-5-4", "poc-aya-log-bug-5-4-common", "xtask"]
