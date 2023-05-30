@@ -12,11 +12,6 @@ pub fn poc_aya_log_bug_5_4(ctx: ProbeContext) -> u32 {
     }
 }
 
-pub enum MaybeEightBytes {
-    EightBytes,
-    NotEightBytes,
-}
-
 pub fn variable_str(b: bool) -> &'static str {
     if b {
         return "AAAAAAAA";
